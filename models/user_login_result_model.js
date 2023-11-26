@@ -1,5 +1,5 @@
-module.exports = class Manganime{
-    constructor(title, category, description, favorite, watched, isManga, releaseYear, author, imageUrl){
+module.exports = class UserLoginResultModel {
+    constructor(id, userName, userEmail, favorite, watched, joinSince, imageUrl){
         this.title = title;
         this.category = category;
         this.description = description;
